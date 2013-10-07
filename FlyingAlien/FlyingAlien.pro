@@ -13,8 +13,12 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        mainwindow.cpp
+        mainwindow.cpp \
+    flyingobjects.cpp \
+    plane.cpp
 
-HEADERS  += mainwindow.h
+HEADERS  += mainwindow.h \
+    flyingobjects.h \
+    plane.h
 
 FORMS    += mainwindow.ui

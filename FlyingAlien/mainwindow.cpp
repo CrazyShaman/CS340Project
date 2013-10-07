@@ -6,6 +6,11 @@ MainWindow::MainWindow(QWidget *parent) :
     ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
+
+    QPixmap p("plane.jpg");
+    ui->labelPic->setPixmap(p);
+
+
 }
 
 MainWindow::~MainWindow()
