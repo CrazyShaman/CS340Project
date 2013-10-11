@@ -9,10 +9,10 @@ Dialog::Dialog(QWidget *parent) :
 
     scene = new QGraphicsScene(this);
     ui->graphicsView->setScene(scene);
-
+    
     ui->graphicsView->setRenderHint(QPainter::Antialiasing);
     scene->setSceneRect(-200,-200,300,300);
-
+    
     QPen pen(Qt::blue);
 
     QLineF topLine(scene->sceneRect().topLeft(),scene->sceneRect().topRight());

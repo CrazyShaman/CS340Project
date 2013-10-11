@@ -7,8 +7,8 @@ MainWindow::MainWindow(QWidget *parent) :
 {
     ui->setupUi(this);
 
-    QPixmap p("plane.jpg");
-    ui->labelPic->setPixmap(p);
+   // QPixmap p("/Users/Christofer/Brain Boosting/Fall 2013/CS 340/QT/plane.jpg");
+   // ui->planeLabel->setPixmap(planeLabel);
 
 
 }

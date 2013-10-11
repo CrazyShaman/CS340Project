@@ -28,9 +28,10 @@ class Ui_MainWindow
 {
 public:
     QWidget *centralWidget;
-    QPushButton *pushButton;
-    QPushButton *pushButton_2;
-    QLabel *labelPic;
+    QPushButton *Start;
+    QPushButton *Options;
+    QLabel *planeLabel;
+    QPushButton *Quit;
     QMenuBar *menuBar;
     QToolBar *mainToolBar;
     QStatusBar *statusBar;
@@ -42,15 +43,19 @@ public:
         MainWindow->resize(400, 300);
         centralWidget = new QWidget(MainWindow);
         centralWidget->setObjectName(QStringLiteral("centralWidget"));
-        pushButton = new QPushButton(centralWidget);
-        pushButton->setObjectName(QStringLiteral("pushButton"));
-        pushButton->setGeometry(QRect(40, 30, 114, 32));
-        pushButton_2 = new QPushButton(centralWidget);
-        pushButton_2->setObjectName(QStringLiteral("pushButton_2"));
-        pushButton_2->setGeometry(QRect(40, 70, 114, 32));
-        labelPic = new QLabel(centralWidget);
-        labelPic->setObjectName(QStringLiteral("labelPic"));
-        labelPic->setGeometry(QRect(170, 30, 191, 161));
+        Start = new QPushButton(centralWidget);
+        Start->setObjectName(QStringLiteral("Start"));
+        Start->setGeometry(QRect(130, 80, 114, 32));
+        Options = new QPushButton(centralWidget);
+        Options->setObjectName(QStringLiteral("Options"));
+        Options->setGeometry(QRect(130, 110, 114, 32));
+        planeLabel = new QLabel(centralWidget);
+        planeLabel->setObjectName(QStringLiteral("planeLabel"));
+        planeLabel->setGeometry(QRect(270, 10, 111, 121));
+        planeLabel->setPixmap(QPixmap(QString::fromUtf8("plane.jpg")));
+        Quit = new QPushButton(centralWidget);
+        Quit->setObjectName(QStringLiteral("Quit"));
+        Quit->setGeometry(QRect(130, 140, 114, 32));
         MainWindow->setCentralWidget(centralWidget);
         menuBar = new QMenuBar(MainWindow);
         menuBar->setObjectName(QStringLiteral("menuBar"));
@@ -70,10 +75,11 @@ public:
 
     void retranslateUi(QMainWindow *MainWindow)
     {
-        MainWindow->setWindowTitle(QApplication::translate("MainWindow", "MainWindow", 0));
-        pushButton->setText(QApplication::translate("MainWindow", "Start", 0));
-        pushButton_2->setText(QApplication::translate("MainWindow", "Options", 0));
-        labelPic->setText(QString());
+        Start->setText(QApplication::translate("MainWindow", "Start", 0));
+        Options->setText(QApplication::translate("MainWindow", "Options", 0));
+        planeLabel->setText(QString());
+        Quit->setText(QApplication::translate("MainWindow", "Quit", 0));
+        Q_UNUSED(MainWindow);
     } // retranslateUi
 
 };

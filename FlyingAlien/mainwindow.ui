@@ -10,15 +10,12 @@
     <height>300</height>
    </rect>
   </property>
-  <property name="windowTitle">
-   <string>MainWindow</string>
-  </property>
   <widget class="QWidget" name="centralWidget">
-   <widget class="QPushButton" name="pushButton">
+   <widget class="QPushButton" name="Start">
     <property name="geometry">
      <rect>
-      <x>40</x>
-      <y>30</y>
+      <x>130</x>
+      <y>80</y>
       <width>114</width>
       <height>32</height>
      </rect>
@@ -27,11 +24,11 @@
      <string>Start</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_2">
+   <widget class="QPushButton" name="Options">
     <property name="geometry">
      <rect>
-      <x>40</x>
-      <y>70</y>
+      <x>130</x>
+      <y>110</y>
       <width>114</width>
       <height>32</height>
      </rect>
@@ -40,17 +37,33 @@
      <string>Options</string>
     </property>
    </widget>
-   <widget class="QLabel" name="labelPic">
+   <widget class="QLabel" name="planeLabel">
     <property name="geometry">
      <rect>
-      <x>170</x>
-      <y>30</y>
-      <width>191</width>
-      <height>161</height>
+      <x>270</x>
+      <y>10</y>
+      <width>111</width>
+      <height>121</height>
      </rect>
     </property>
     <property name="text">
      <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>plane.jpg</pixmap>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Quit">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>140</y>
+      <width>114</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Quit</string>
     </property>
    </widget>
   </widget>
