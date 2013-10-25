@@ -1,6 +1,6 @@
 #-------------------------------------------------
 #
-# Project created by QtCreator 2013-10-06T21:42:32
+# Project created by QtCreator 2013-10-20T20:35:14
 #
 #-------------------------------------------------
 cache()
@@ -8,15 +8,16 @@ QT       += core gui
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
-TARGET = movingObj
+TARGET = Rectangle
 TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        dialog.cpp \
-    myitem.cpp
+        dialog.cpp
 
-HEADERS  += dialog.h \
-    myitem.h
+HEADERS  += dialog.h
 
 FORMS    += dialog.ui
+
+RESOURCES += \
+    Resources.qrc

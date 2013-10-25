@@ -14,7 +14,7 @@ void newItem::paint(QPainter *painter, const QStyleOptionGraphicsItem *option, Q
 {
     painter->setBrush(Qt::yellow);
     //painter->drawRoundedRect(0,0,30,30,5,5);
-    painter->drawPixmap(0,0,35,35,QPixmap("C:/Users/Junce/Desktop/alien.jpg"));
+    painter->drawPixmap(0,0,35,35,QPixmap("/Users/Christofer/Brain Boosting/Fall 2013/CS 340/QT/CS340Project/customItem/alien.jpg"));
 }
 
 void newItem::keyPressEvent(QKeyEvent *event)
