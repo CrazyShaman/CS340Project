@@ -20,7 +20,7 @@ void MainWindow::on_pushButton_clicked()
     std::cout << "pushbutton " << std::endl;
 }
 
-
+/*! added function */
 void MainWindow::on_pushButton_2_released()
 {
     std::cout << "Hi how are you!? " << std::endl;
