@@ -1,6 +1,6 @@
 #-------------------------------------------------
 #
-# Project created by QtCreator 2013-09-23T16:31:05
+# Project created by QtCreator 2013-10-13T20:11:18
 #
 #-------------------------------------------------
 
@@ -8,17 +8,22 @@ QT       += core gui
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
-TARGET = FlyingAlien
+TARGET = customItem
 TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        mainwindow.cpp \
-    flyingobjects.cpp \
+        dialog.cpp \
+    newitem.cpp \
+    background.cpp \
     plane.cpp
 
-HEADERS  += mainwindow.h \
-    flyingobjects.h \
+HEADERS  += dialog.h \
+    newitem.h \
+    background.h \
     plane.h
 
-FORMS    += mainwindow.ui
+FORMS    += dialog.ui
+
+RESOURCES += \
+    OurResources.qrc

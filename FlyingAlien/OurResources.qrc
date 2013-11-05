@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/Pictures">
+        <file>alien.jpg</file>
+        <file>sky.jpg</file>
+        <file>plane_img.jpg</file>
+    </qresource>
+</RCC>

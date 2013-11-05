@@ -1,23 +1,27 @@
-#ifndef PLANE_H
-#define PLANE_H
+#ifndef BACKGROUND_H
+#define BACKGROUND_H
 
 #include <QPainter>
 #include <QGraphicsItem>
 #include <QtGui>;
 
-class plane : public QGraphicsItem
+class background: public QGraphicsItem
 {
+public:
+    background();
+
 private:
     qreal currentX;
     qreal currentY;
-
-public:
-    plane();
+    bool keysPressed[3];
 
 protected:
     QRectF boundingRect()const;
     void advance(int phase);
     void paint(QPainter *painter, const QStyleOptionGraphicsItem *option, QWidget *widget);
+    virtual void keyPressEvent(QKeyEvent *event);
+    virtual void keyReleaseEvent(QKeyEvent *event);
+
 };
 
-#endif // PLANE_H
+#endif // BACKGROUND_H
