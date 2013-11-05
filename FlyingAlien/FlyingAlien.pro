@@ -27,3 +27,5 @@ FORMS    += dialog.ui
 
 RESOURCES += \
     OurResources.qrc
+
+cache()
