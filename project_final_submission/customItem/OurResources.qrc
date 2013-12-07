@@ -1,0 +1,40 @@
+<RCC>
+    <qresource prefix="/Pictures">
+        <file>sky.jpg</file>
+        <file>sky2.png</file>
+        <file>space.png</file>
+        <file>sky3.png</file>
+        <file>Resilience.jpg</file>
+        <file>Wheel.png</file>
+        <file>shopDone.png</file>
+        <file>mineral.png</file>
+        <file>AlienNew .png</file>
+        <file>asteroid.png</file>
+        <file>bird_img.png</file>
+        <file>bird_img_left.png</file>
+        <file>blackout.png</file>
+        <file>BrainFuel.png</file>
+        <file>brainPower.png</file>
+        <file>fuel.png</file>
+        <file>pet.png</file>
+        <file>plane.png</file>
+        <file>plane_img_right.png</file>
+        <file>blackedout.png</file>
+        <file>mineralsmall.png</file>
+        <file>Aliensmall.png</file>
+        <file>fuelsmall.png</file>
+        <file>sky5.png</file>
+        <file>planeB_transp.png</file>
+        <file>planeA.gif</file>
+        <file>brainThruster.png</file>
+        <file>ship2.png</file>
+        <file>AlienNewDark.png</file>
+        <file>DaveyLine.png</file>
+        <file>story.png</file>
+        <file>background.png</file>
+    </qresource>
+    <qresource prefix="/Sound">
+        <file>FunkyTime.wav</file>
+        <file>AlienTheme.wav</file>
+    </qresource>
+</RCC>
